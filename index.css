@@ -1,0 +1,246 @@
+  body {
+      /* background-image: url("https://londonwomensforum.org/wp-content/uploads/2018/03/businesswomen1-istock.jpg"); */
+      font-family: Arial, sans-serif;
+      margin: 3rem;
+      padding: 3rem;
+      align-content: center;
+      background-color: #ffffff;
+      background-image: url("pinkroses.png");
+     
+
+     
+  }
+
+  .body-container {
+      background-color: #eddcd9;
+
+  }
+
+  nav {
+      background-color: #eadddd;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+  }
+
+  nav ul {
+    
+      list-style-type: none;
+      margin: 10px;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+    background-color: #0d9a85;
+      
+  }
+
+  nav li {
+      margin: 0 10px;
+  }
+
+  nav a {
+    color: #e5dde3;
+      text-decoration: none;
+      font-weight: 800;
+  }
+
+  nav a:hover {
+      text-decoration: underline;
+  }
+
+
+  header {
+      color: rgb(243, 238, 243);
+      padding: 20px;
+      text-align: center;
+      background-color: rgb(224, 49, 106);
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
+
+  h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-family: fantasy;
+  }
+  #header-p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+  }
+
+  section {
+      margin: 20px;
+      text-align: center;
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      text-justify: justify;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: 13rem;
+      padding: 40px;
+      border: 4px solid #14af98;
+      width: 40rem;
+      background-color: #eddcd9;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+      padding: 10px;
+      margin: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  select {
+      padding: 10px;
+      margin: 10px;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+      padding: 10px;
+      margin: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box;
+      background-color: #f00869;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+      background-color: #075a03;
+  }
+
+
+
+#register-now{
+padding: 10px;
+    margin: 10px;
+    width: 15%;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #218705;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+  .reg-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(224, 112, 146);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;    
+  }
+
+  .summit-details{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border: 3px solid #0d9a85;
+  }
+
+  #summary{
+    width: 600px;
+    height: 350px;
+    padding: 3rem;
+    /* background-color: rgb(241, 226, 226); */
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+   
+  }
+
+  #reg-butn{
+    width: 150px;
+    height: 80px;
+    padding: 1rem;
+    border: 4px solid rgb(6, 129, 94);
+    font-weight: 800;
+    background-color: rgb(249, 168, 206);
+    border-radius: 5%;
+  }
+
+  #registration-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #reg-img{
+    margin-top: 2rem;
+  }
+
+  img{
+    margin-top: 3rem;
+  }
+
+  .icons{
+    background-color: #0d9a85;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  }
+
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+      opacity: 0.4;
+  }
+
+  /* Set a specific color for each brand */
+
+ 
+  .fa-facebook {
+      background: #f387d1;
+      color: white;
+  }
+
+  .fa-twitter {
+      background: #f387d1;
+      color: white;
+}
+
+  .fa-instagram {
+      background: #f387d1;
+      color: white;
+  }
+
+   .fa-linkedin {
+       background: #f387d1;
+       color: white;
+   }

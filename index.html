@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Women's Summit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="register" type="text/css" href="register.html" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d81457d759.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Kaushan+Script&family=Lobster+Two&family=Oleo+Script&family=Permanent+Marker&family=Quicksand:wght@300&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="body-container">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="home">HOME</a></li>
+                <li id="summit"><a href="#summit">ABOUT</a></li>
+
+                <!-- <li><a href="summit-details">ABOUT</a></li> -->
+                <li><a href="register">REGISTER</a></li>
+                <li><a href="events">SUMMIT EVENTS</a></li>
+                <li><a href="contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Code Your Future <br>Women's International Summer Summit <br>[CYF-WISS]</h1>
+            <h2>SUMMER 2023</h2>
+            <p id="header-p">Join us for a day of Inspiration, Education and Empowerment</p>
+        </header>
+
+   
+
+
+        <section1 id="summit">
+            <div class="summit-details">
+                <div id="summary">
+                    <h2 id="summit">About our Summit</h2>
+                    <p>Code Your Future Women's International Summer Summit is a gathering of women from all walks of
+                        life who come together to share ideas, stories and strategies for personal and professional
+                        growth.</p>
+                    <p>This year's summit will feature keynote speakers, panel discussions, and workshops on a variety
+                        of topics,
+                        including leadership, entrepreneurship, education, health and wellness and more.</p>
+                    <p>We aim to provide a holistic support for all the women in our community, by bringing them
+                        together from all the regions where we operate, to talk, relax, unwind, learn, support and share
+                        stories and experiences in a safe space. We look forward to welcoming a diverse range of women
+                        in tech this year, who will be involved in panels discussions, roundtable conversations,
+                        presentations and so much more..!</p>
+                </div>
+
+                <div id="reg-img">
+                    <img src="https://therepproject.org/wp-content/uploads/2021/07/Black-Womens-Movements.png" /> <br>
+                </div>
+            </div>
+
+            <img
+                src="https://newtalents4eu.eu/wp-content/uploads/2020/10/https___cdn.evbuc_.com_images_112123285_208583538221_1_original.jpg" />
+
+            <div class="reg-info">
+                <h2>Register Your Interest</h2>
+                <p>Fill out the form below to receive updates and notifications about the summit:</p>
+
+                <button id="reg-butn">REGISTER YOUR INTEREST</button>
+                
+                <div id="registration-form" style="display: none;">
+
+            <section>
+                <form action="submit-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="occupation">Occupation:</label>
+                    <select id="occupation" name="occupation" required>
+                        <option value="">Select an occupation</option>
+                        <option value="Developer">Software Developer/Engineer</option>
+                        <option value="fullstack">Full Stack Developer</option>
+                        <option value="Fontend">Front End Developer</option>
+                        <option value="Backend">Back End Developer</option>
+                        <option value="Product">Product Manager</option>
+                        <option value="Data-Analyst">Data-Analyst</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="student">Student</option>
+                        <option value="unemployed">JobSeeker</option>
+                        <option value="switch">Career Switcher</option>
+                        <option value="non-tech">Non-Tech Role</option>
+                        <option value="other">Other Ocupation</option>
+                    </select>
+
+                    <label for="company">Company/School:</label>
+                    <input type="text" id="company" name="company" required>
+                    <label for="home-area">Where will you travel from?</label>
+                    <select id="region">
+                        <option value="">Select A Region</option>
+                        <option value="Glasgow">Glasgow</option>
+                        <option value="London">London</option>
+                        <option value="Midlands">West Midlands</option>
+                        <option value="SA">South Africa</option>
+                    </select>
+
+                    <label for="topic">Which Topics are you most interested in?</label>
+
+                    <select id="region">
+                        <option value="select">Select 3 ONLY</option>
+                        <option value="Career">Careers Advise</option>
+                        <option value="Employability">Employability Skills</option>
+                        <option value="Switch">Switching to a career in Tech</option>
+                        <option value="Women-Leadership">Women in Leadership</option>
+                        <option value="Diversity">Diversity and Inclusion in Tech</option>
+                        <option value="Interview">Interviewing Skills</option>
+                        <option value="Impostor">Tackling Impostor Syndrome</option>
+                    </select>
+
+                    <!-- <input type="submit" value="Register"> -->
+                    <input type="submit" value="CLICK TO REGISTER"
+                        onclick="alert('Thank you for registering your interest. We will be in touch soon!')"></input>
+                </form>
+                </div>
+                </div>
+
+                <input id="return-btn" type="submit" value="RETURN TO TOP"></input>
+            </section>
+            <footer>
+                <h3>Code Your Future International Women's Summit</h3>
+
+                <div class="icons">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+            </footer>
+   
+
+
+
+    <script>
+    const registrationButton = document.getElementById("reg-butn");
+        const registrationForm = document.getElementById("registration-form");
+
+        registrationButton.addEventListener("click", function () {
+            if (registrationForm.style.display === "none") {
+                registrationForm.style.display = "block";
+            } else {
+                registrationForm.style.display = "none";
+            }
+        });
+</script>
+</body>
+
+</html>
