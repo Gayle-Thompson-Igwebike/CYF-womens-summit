@@ -29,8 +29,9 @@
         </nav>
 
         <header>
-            <h1>Code Your Future <br>Women's International Summer Summit <br>[CYF-WISS]</h1>
-            <h2>SUMMER 2023</h2>
+            <h1>Code Your Future</h1> 
+            <h2>Women's International Summer Event & Recognition <br>[WISER]</h2>
+            <h3>Summer 2023</h3>
             <p id="header-p">Join us for a day of Inspiration, Education and Empowerment</p>
         </header>
 
@@ -40,27 +41,40 @@
         <section1 id="summit">
             <div class="summit-details">
                 <div id="summary">
-                    <h2 id="summit">About our Summit</h2>
-                    <p>Code Your Future Women's International Summer Summit is a gathering of women from all walks of
-                        life who come together to share ideas, stories and strategies for personal and professional
-                        growth.</p>
-                    <p>This year's summit will feature keynote speakers, panel discussions, and workshops on a variety
-                        of topics,
-                        including leadership, entrepreneurship, education, health and wellness and more.</p>
-                    <p>We aim to provide a holistic support for all the women in our community, by bringing them
-                        together from all the regions where we operate, to talk, relax, unwind, learn, support and share
-                        stories and experiences in a safe space. We look forward to welcoming a diverse range of women
-                        in tech this year, who will be involved in panels discussions, roundtable conversations,
-                        presentations and so much more..!</p>
+                    <h2 id="summit">About The Summit:</h2>
+
+                        <p>CYF-WISER is a platform for women from diverse backgrounds to come together,
+                        exchange ideas and strategise for personal and professional growth.<br> This is an empowering gathering that also celebrates the achievements of women who have trained or volunteered at CYF and are now making remarkable contributions to their's and the lives of others. <br> <br>
+                        
+                        This year's summit promises an enriching experience with engaging keynote speakers, thought-provoking panel discussions and interactive workshops, covering topics such as leadership, entrepreneurship, education, health and wellness and more. <br> <br>
+
+                        We want to provide holistic support to all women in our community, fostering a sense of togetherness and
+                        creating a safe space for them to share inspiring stories, connect, unwind, learn and support one another. <br><br>
+
+                        Join us in celebrating the accomplishments of incredible women, as we continue to foster a supportive and inclusive community in the tech industry. <br>
+                        <br>Together, we are WISER..!!</p>
                 </div>
 
                 <div id="reg-img">
-                    <img src="https://therepproject.org/wp-content/uploads/2021/07/Black-Womens-Movements.png" /> <br>
+                    <img id="reg" src="https://therepproject.org/wp-content/uploads/2021/07/Black-Womens-Movements.png" /> <br>
+               
+                <div id="image"><img
+                        src="https://newtalents4eu.eu/wp-content/uploads/2020/10/https___cdn.evbuc_.com_images_112123285_208583538221_1_original.jpg" />
+                </div>
                 </div>
             </div>
 
-            <img
-                src="https://newtalents4eu.eu/wp-content/uploads/2020/10/https___cdn.evbuc_.com_images_112123285_208583538221_1_original.jpg" />
+<!-- 
+            <div class="cyf-images">
+
+               <div id="image"> <img src="https://media.licdn.com/dms/image/D4E22AQFd6t0EPnPaNw/feedshare-shrink_800/0/1687175834386?e=1692230400&v=beta&t=rm96s_-o8yLPDga1ZI-yzZSqo028TQFCZZ_zC2v6dE0" />
+               </div>
+
+               <div id="image"> <img src="https://media.licdn.com/dms/image/D4E22AQGtDNkbby2VeQ/feedshare-shrink_800/0/1686606428671?e=2147483647&v=beta&t=13WrTXnIuFVIU3rk6rYELuXJeQe9tHefzTKQZBAFV9U" /> </div>
+
+               <div id="image"> <img src="https://media.licdn.com/dms/image/D4E22AQGtDNkbby2VeQ/feedshare-shrink_800/0/1686606428671?e=2147483647&v=beta&t=13WrTXnIuFVIU3rk6rYELuXJeQe9tHefzTKQZBAFV9U"/> </div>
+
+                </div> -->
 
             <div class="reg-info">
                 <h2>Register Your Interest</h2>
@@ -97,7 +111,16 @@
 
                     <label for="company">Company/School:</label>
                     <input type="text" id="company" name="company" required>
-                    <label for="home-area">Where will you travel from?</label>
+
+
+                    <label for="alumni">Are you an alumni of CYF?</label>
+                    <select id="Ans">
+                        <option value=""></option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        </select>
+
+                    <label for="home-area">Which region will you travel from?</label>
                     <select id="region">
                         <option value="">Select A Region</option>
                         <option value="Glasgow">Glasgow</option>
@@ -108,15 +131,15 @@
 
                     <label for="topic">Which Topics are you most interested in?</label>
 
-                    <select id="region">
-                        <option value="select">Select 3 ONLY</option>
+                    <select id="topic">
+                        <option value="select">Select an option</option>
                         <option value="Career">Careers Advise</option>
                         <option value="Employability">Employability Skills</option>
                         <option value="Switch">Switching to a career in Tech</option>
                         <option value="Women-Leadership">Women in Leadership</option>
                         <option value="Diversity">Diversity and Inclusion in Tech</option>
                         <option value="Interview">Interviewing Skills</option>
-                        <option value="Impostor">Tackling Impostor Syndrome</option>
+                        <option value="New-Role">Navigating a new role</option>
                     </select>
 
                     <!-- <input type="submit" value="Register"> -->
@@ -128,8 +151,7 @@
 
                 <input id="return-btn" type="submit" value="RETURN TO TOP"></input>
             </section>
-            <footer>
-                <h3>Code Your Future International Women's Summit</h3>
+            <footer class="footer">
 
                 <div class="icons">
                     <a href="#" class="fa fa-facebook"></a>
@@ -137,6 +159,7 @@
                     <a href="#" class="fa fa-linkedin"></a>
                     <a href="#" class="fa fa-instagram"></a>
                 </div>
+                <p style="align-self: center; font-style: italic; font-weight: 600; font-size:x-small;">Code Your Future International Women's Summer Summit and Awards [CYF-WISSA] 2023:- Gayle Thompson-Igwebike: London Class9</p>
             </footer>
    
 
